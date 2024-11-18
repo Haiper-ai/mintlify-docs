@@ -11,7 +11,8 @@
     "light": "#7B61FF",
     "dark": "#7B61FF",
     "anchors": {
-      "color": "#7B61FF"
+      "from": "#7B61FF",
+      "to": "#7B61FF"
     }
   },
   "theme": "prism",
