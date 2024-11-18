@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Haiper Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/favicon.svg",
   "colors": {
     "primary": "#7B61FF",
     "light": "#7B61FF",
@@ -27,7 +27,9 @@
   ],
   "topbarCtaButton": {
     "name": "Go to haiper.ai",
-    "url": "https://haiper.ai"
+    "url": "https://haiper.ai",
+    "style": "pill",
+    "arrow": true
   },
   "tabs": [
     {
