@@ -21,13 +21,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "About",
+      "url": "https://haiper.ai/about"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Go to haiper.ai",
+    "url": "https://haiper.ai"
   },
   "tabs": [
     {
@@ -83,8 +83,10 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/HaiperGenAI",
+    "instagram": "https://www.instagram.com/haiper.ai/",
+    "tiktok": "https://www.tiktok.com/@haiper.ai",
+    "linkedin": "https://linkedin.com/company/haiperai",
+    "discord": "https://discord.com/invite/EUQvgt5dav"
   }
 }
