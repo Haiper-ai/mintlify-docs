@@ -8,11 +8,10 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#7B61FF",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "light": "#7B61FF",
+    "dark": "#7B61FF",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "color": "#7B61FF"
     }
   },
   "theme": "prism",
