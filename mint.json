@@ -10,9 +10,9 @@
     "primary": "#7B61FF",
     "light": "#7B61FF",
     "dark": "#7B61FF",
-    "anchors": {
-      "color": "#7B61FF"
-    }
+    "anchors": [
+      {"color": "#7B61FF"}
+    ]
   },
   "theme": "prism",
   "topbarLinks": [
