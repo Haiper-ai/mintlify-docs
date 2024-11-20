@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Haiper Documentation",
+  "name": "Haiper",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -19,6 +19,9 @@
   "modeToggle": {
     "default": "dark"
   },
+  "sidebar": {
+    "items": "border"
+  },
   "topbarLinks": [
     {
       "name": "About",
@@ -30,6 +33,9 @@
     "url": "https://haiper.ai",
     "style": "pill",
     "arrow": true
+  },
+  "primaryTab": {
+      "name": "Home"
   },
   "tabs": [
     {
@@ -70,17 +76,38 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Using Haiper API",
       "pages": [
-        "api-reference/introduction"
+        "api-reference/overview",
+        "api-reference/authentication",
+        "api-reference/rate-limits",
+        "api-reference/errors"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Create with Haiper 2.0",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/2-0-text-to-video",
+        "api-reference/endpoint/2-0-image-to-video",
+        "api-reference/endpoint/2-0-text-to-image"
+      ]
+    },
+    {
+      "group": "Create with Haiper 1.5",
+      "pages": [
+        "api-reference/endpoint/1-5-text-to-video",
+        "api-reference/endpoint/1-5-image-to-video",
+        "api-reference/endpoint/1-5-afc",
+        "api-reference/endpoint/1-5-text-to-image",
+        "api-reference/endpoint/1-5-extend",
+        "api-reference/endpoint/1-5-upscale"
+      ]
+    },
+    {
+      "group": "General Functions",
+      "pages": [
+        "api-reference/endpoint/get-job-info",
+        "api-reference/endpoint/get-creation-detail"
       ]
     }
   ],
