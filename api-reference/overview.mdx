@@ -1,0 +1,35 @@
+---
+title: 'Quick Start'
+description: 'Example section for showcasing API endpoints'
+icon: 'rocket'
+iconType: "regular"
+---
+
+## Accessing the API
+The API is only available for Haiper API users. You can access and manage your account on the [API page](https://haiper.ai/haiper-api).
+
+## Content types
+The Haiper API always accepts JSON in request bodies and returns JSON in response bodies. You will need to send the `content-type: application/json` header in requests.
+
+
+## Authentication
+All requests to the Haiper API must include `x-haiper-auth` and `authentication` header with your API key.
+
+## Examples
+All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+
+```json
+"security": [
+  {
+    "bearerAuth": []
+  }
+]
+```
+
+<Card
+  title="Plant Store Endpoints"
+  icon="leaf"
+  href=""
+>
+  View the OpenAPI specification file
+</Card>
